@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils';
 import { format } from 'date-fns';
 import type { JournalEntry } from '@/app/lib/types';
 
-const MOODS = ['😿', '😾', '😐', '😊', '😻'];
+const MOODS = ['😿', '😾', '😼', '😊', '😻'];
 
 export function DailyCheckin() {
   const [selectedMood, setSelectedMood] = useState<string>('');
